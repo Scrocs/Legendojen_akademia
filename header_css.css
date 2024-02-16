@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-image: url('teemo1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
@@ -6,11 +8,13 @@ body {
   background-size: cover;
 }
 nav {
-  padding: 15px 15px; 
-  font-size: 30px;
-  color: #ff00bf;
+  margin: 10;
+  padding: 0;
+  font-size: 35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-variant: small-caps;
   overflow: hidden; 
-  background-color: #ffffff49; 
+  background-color: #ffffff1c; 
   text-align: center;
   
 }
@@ -19,8 +23,14 @@ nav a {
   text-decoration: none; 
   padding: 0px 40px;
 }
+/*Hover väri*/
 nav a:hover {
   background-color: #ffffff61;
+}
+
+/*Näyttää millä sivulla olet */
+.active {
+  background-color: #04AA6D;
 }
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
