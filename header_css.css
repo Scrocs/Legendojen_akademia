@@ -4,7 +4,23 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+}
+nav {
+  padding: 15px 15px; 
+  font-size: 30px;
+  color: #ff00bf;
+  overflow: hidden; 
+  background-color: #ffffff49; 
+  text-align: center;
   
+}
+nav a {
+  color: #ff00bf;
+  text-decoration: none; 
+  padding: 0px 40px;
+}
+nav a:hover {
+  background-color: #ffffff61;
 }
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
