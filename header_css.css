@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   background-image: url('teemo1.jpg');
   background-repeat: no-repeat;
@@ -8,24 +8,26 @@ body {
   background-size: cover;
 }
 nav {
-  margin: 10;
+  margin: 0px;
   padding: 0;
-  font-size: 35px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  font-variant: small-caps;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   overflow: hidden; 
-  background-color: #ffffff1c; 
   text-align: center;
   
+
 }
 nav a {
-  color: #ff00bf;
+  color: #eeeded;
+  text-shadow: 1px 1px #00000079;
   text-decoration: none; 
-  padding: 0px 40px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  background-color: #ffffff1c;
 }
 /*Hover väri*/
 nav a:hover {
-  background-color: #ffffff61;
+  background-color: #d1bebe;
 }
 
 /*Näyttää millä sivulla olet */
@@ -35,16 +37,26 @@ nav a:hover {
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
-  color: blueviolet;
+  color: #eeeded;
   text-align: center;
   font-size: 70px;
-  text-shadow: 1px 1px #060000;
+  text-shadow: 1px 1px #ffffff1e;
   
+}
+
+p{
+  font-size: 37px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: blueviolet;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
 }
 footer {
   position: absolute;
   bottom: 0;
   width: 99%;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
