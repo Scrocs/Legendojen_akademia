@@ -19,7 +19,7 @@ nav {
 }
 nav a {
   color: #eeeded;
-  text-shadow: 1px 1px #00000079;
+  text-shadow: 2px 2px #00000079;
   text-decoration: none; 
   padding: 10px 20px;
   transition: background-color 0.3s;
@@ -37,10 +37,10 @@ nav a:hover {
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-variant: small-caps;
-  color: #eeeded;
+  color: #ffffff;
   text-align: center;
   font-size: 70px;
-  text-shadow: 1px 1px #ffffff1e;
+  text-shadow: 3px 3px #000000;
   
 }
 
@@ -51,10 +51,9 @@ p{
   font-weight: 600;
   color: blueviolet;
   text-align: center;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 2px 2px #000000;
 }
 footer {
-  position: absolute;
   bottom: 0;
   width: 99%;
   text-align: center;
