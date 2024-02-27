@@ -54,18 +54,24 @@ h1 {
   text-shadow: 2px 2px #000000;
 }
 footer {
-  bottom: 0;
-  width: 99%;
   text-align: center;
   color: #ffffff;
-  clear: both;
-  position: relative;
-  height: 100px;
-  margin-top: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-figcaption{
-  color: #ffffff;
+/*   bottom: 0;
+  width: 99%;*/
+.container {
+  display: flex;
+}
   
+.op_gg {
+  flex: 0 0 auto; /* Image won't grow or shrink */
+  margin-right: 60px; /* Add some space between image and text */
 }
-
+  
+.text {
+  flex: 1; /* Take remaining space */
+  color: #ffffff;
+}
+  
