@@ -25,14 +25,14 @@ nav a {
   transition: background-color 0.3s;
   background-color: #ffffff1c;
 }
-/*Hover väri*/
-nav a:hover {
-  background-color: #d1bebe;
+/*Näyttää millä sivulla olet */
+nav a.active-page{
+  background-color:blueviolet;
 }
 
-/*Näyttää millä sivulla olet */
-.active {
-  background-color: #04AA6D;
+/*Hover väri */
+nav a:hover {
+  background-color: #ffffff;
 }
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
