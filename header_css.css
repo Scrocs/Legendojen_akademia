@@ -44,7 +44,7 @@ h1 {
   
 }
 
-p{
+.etusivu {
   font-size: 37px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
@@ -63,3 +63,9 @@ footer {
   height: 100px;
   margin-top: 150px;
 }
+
+figcaption{
+  color: #ffffff;
+  
+}
+
