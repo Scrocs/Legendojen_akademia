@@ -58,4 +58,8 @@ footer {
   width: 99%;
   text-align: center;
   color: #ffffff;
+  clear: both;
+  position: relative;
+  height: 100px;
+  margin-top: 150px;
 }
