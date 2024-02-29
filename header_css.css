@@ -68,3 +68,26 @@ figcaption{
   color: #ffffff;
   
 }
+.image-container {
+  width: fit-content; /* Adjust width to fit the content */
+  margin: left; /* Center the container */
+  padding: 10px 10px; /* Add some padding around the container */
+ 
+}
+
+.image-container figure {
+  display: block; /* Display figures inline */
+  margin: 0; /* Remove default margins */
+  
+}
+
+.image-container figcaption {
+  text-align: center; /* Center the figcaptions */
+}
+.image-container img {
+  width: 300px; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio while covering the content box */
+  border: 2px solid #000000;
+  margin: 10px
+}
