@@ -112,9 +112,10 @@ figcaption{
   border: 2px solid #000; /* Add a 2px solid black border around the images */
 }
 p{
-  margin-left: 10px;
+  padding: 0px 100px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   color: #ffffff;
   text-align: center;
+
 }
