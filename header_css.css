@@ -74,17 +74,7 @@ figcaption{
   color: #ffffff;
   
 }
-.text-container {
-  display: flex;
-  align-items: left;
-}
 
-.text-container p {
-  margin-left: 10px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 30px;
-  color: #ffffff;
-}
 .image-container {
   width: fit-content; /* Adjust width to fit the content */
   margin: auto; /* Center the container */
