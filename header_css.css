@@ -86,9 +86,8 @@ p {
 }
 
 .group:nth-child(odd) {
-  background: linear-gradient(to right, #690c69, #0099ffb2);
+  background: linear-gradient(to right, #00000000, #ffffff00);
 }
-
 .group:nth-child(even) {
   background: linear-gradient(to right, #690c69, #0099ffb2);
 }
@@ -96,18 +95,14 @@ p {
 .group {
   padding: 40px;
   display: flex;
-  flex-direction: row-reverse; /* flex direction toistensa päälle */
+  flex-direction: row-reverse; /* flex row=kuva vasen row-reverse kuva oikea*/
   border: 1px solid rgba(255, 255, 255, 0.733);
 }
+
 figure {
   margin: 0px;
+  
 }
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .group img {
   max-width: 100%;
   height: auto;
