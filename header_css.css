@@ -1,4 +1,4 @@
-body {
+/*body {
   margin: 10px;
   padding: 0;
   background-image: url('csgo.jpg');
@@ -7,23 +7,29 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+*/
+body {
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(83, 83, 83));
+}
+
 nav {
   margin: 0px;
-  padding: 0;
+  padding: 10px; 
   font-size: 30px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   overflow: hidden; 
   text-align: center;
-  
-
 }
 nav a {
   color: #eeeded;
   text-shadow: 2px 2px #00000079;
   text-decoration: none; 
-  padding: 10px 20px;
+  padding: 10px 30px;
   transition: background-color 0.3s;
   background-color: #ffffff1c;
+  border-radius: 40px;
+  margin-right: 10px;
+  margin-bottom: 50px;
 }
 /*Näyttää millä sivulla olet */
 nav a.active-page{
@@ -32,7 +38,7 @@ nav a.active-page{
 
 /*Hover väri */
 nav a:hover {
-  background-color: #ffffff;
+  background-color: #ffffffa4;
 }
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -41,7 +47,6 @@ h1 {
   text-align: center;
   font-size: 70px;
   text-shadow: 3px 3px #000000;
-  
 }
 
 .etusivu {
@@ -52,6 +57,7 @@ h1 {
   color: rgb(236, 236, 236);
   text-align: center;
   text-shadow: 2px 2px #000000;
+
 }
 footer {
   bottom: 0;
@@ -68,30 +74,25 @@ figcaption{
   color: #ffffff;
   
 }
-.image-container {
-  width: fit-content; /* Adjust width to fit the content */
-  margin: left; /* Center the container */
-  padding: 10px 10px; /* Add some padding around the container */
- 
-}
 
-.image-container figure {
-  display: block; /* Display figures inline */
-  margin: 0; /* Remove default margins */
-  
-}
-
-.image-container figcaption {
-  text-align: center; /* Center the figcaptions */
-}
-.image-container img {
-  width: 300px; /* Adjust the width as needed */
-  height: 500px; /* Adjust the height as needed */
-  object-fit: cover; /* Maintain aspect ratio while covering the content box */
-  border: 2px solid #000000;
-  margin: 10px
-}
-.kuka_olen{
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
-  padding: 0px 500px;
+  color: #ffffff;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0fr; /* Two columns */
+  gap: 20px;
+  padding: 30px;
+}
+
+.grid-teksti1 {
+  order: 1; /* Text first */
+}
+
+.grid-kuva {
+  order: 2; /* Image second */
 }
