@@ -6,11 +6,11 @@
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-}
-*/
+}*/
 body {
   background: linear-gradient(to right, rgb(0, 0, 0), rgb(83, 83, 83));
 }
+
 
 nav {
   margin: 0px;
@@ -89,10 +89,25 @@ p{
   padding: 30px;
 }
 
-.grid-teksti1 {
+.grid-kuva {
+  display: flex;
+  flex-direction: column; /* Changed flex direction to column */
+}
+
+.grid-kuva figure {
+  margin-bottom: 20px; /* Added margin between images */
+}
+
+.grid-text {
+  text-align: left;
+}
+.grid-text {
   order: 1; /* Text first */
 }
 
 .grid-kuva {
   order: 2; /* Image second */
 }
+
+
+
