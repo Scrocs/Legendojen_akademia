@@ -114,3 +114,24 @@ figure {
   margin: 0;
   flex: 1; /* Expand to fill remaining space */
 }
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 18px; /* Further adjust font size for mobile screens */
+  }
+  .group{
+    flex-direction: column;
+  }
+  .group img {
+    max-width: 70%;
+  }
+  nav {
+    font-size: 15px;
+    padding: 10px;
+  }
+  nav a{
+    display: block; /* Display navigation links as block elements */
+    margin: 5px auto; /* Center the navigation links horizontally and add space between them */
+    padding: 10px 20px; /* Add padding to navigation links */
+}
+}
