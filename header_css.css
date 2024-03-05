@@ -119,6 +119,12 @@ figure {
   p{
     font-size: 18px; /* Further adjust font size for mobile screens */
   }
+  .etusivu{
+    font-size: 25px;
+  }
+  h1{
+    font-size: 40px;
+  }
   .group{
     flex-direction: column;
   }
@@ -127,11 +133,11 @@ figure {
   }
   nav {
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
   }
   nav a{
-    display: block; /* Display navigation links as block elements */
+    display: block; /* Antaa blokki elementin */
     margin: 5px auto; /* Center the navigation links horizontally and add space between them */
     padding: 10px 20px; /* Add padding to navigation links */
-}
+  } 
 }
