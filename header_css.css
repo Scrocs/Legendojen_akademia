@@ -115,7 +115,7 @@ figure {
   flex: 1; /* Expand to fill remaining space */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   p{
     font-size: 18px; /* Further adjust font size for mobile screens */
   }
