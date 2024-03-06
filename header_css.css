@@ -137,7 +137,7 @@ figure {
   }
   nav a{
     display: block; /* Antaa blokki elementin */
-    margin: 5px auto; /* Center the navigation links horizontally and add space between them */
-    padding: 10px 20px; /* Add padding to navigation links */
+    margin: 5px auto; /* keskitä*/
+    padding: 10px 20px; /* Laittaa tilaa lisää nappien väliin */
   } 
 }
