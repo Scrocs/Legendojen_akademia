@@ -6,9 +6,9 @@ body {
   color: #fff;
   
 }
-.kuka_olen_page {
+/*.kuka_olen_page {
   background: linear-gradient(to right, #690c69, #0099ffb2);
-}
+} JOS HALUAA ERI TAUSTAKUVAN KUKA_OLEN SIVULLE*/
 nav {
   margin: 0px;
   padding: 15px;
@@ -107,11 +107,11 @@ p {
   
 }
 
-.group:nth-child(odd) {
-  background: linear-gradient(to right, #00000000, #ffffff00);
+.group:nth-child(odd) { /*Muokkaa 1. 3. 5. Boksia*/
+  background: linear-gradient(to right, #00000000, #00000050);
 }
-.group:nth-child(even) {
-  background: linear-gradient(to right, #690c69, #0099ffb2);
+.group:nth-child(even) { /*Muokkaa 2.4.6 boksia*/
+  background: linear-gradient(to right, #00000000, #00000050);
 }
 
 .group {
@@ -151,7 +151,8 @@ figure {
     flex-direction: column;
   }
   .group img {
-    max-width: 70%;
+    max-width: 60%;
+    max-height: 70%;
   }
   nav {
     font-size: 15px;
