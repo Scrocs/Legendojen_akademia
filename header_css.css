@@ -101,6 +101,19 @@ p {
   padding: 20px;
   font-weight: 300;
 }
+.hinnasto-otsikko {
+  font-size: 40px;
+  font-weight: bold; /* Make the HINNASTO text bold */
+  text-align: center;
+  text-shadow:2px 2px #000000;
+}
+
+.hinnasto-teksti {
+  font-size: 30px;
+  font-weight: 200px;
+  text-shadow:1px 1px #000000;
+
+}
 
 .grid-container {
   display: flex;
@@ -117,6 +130,7 @@ p {
   /* Stack items vertically */
   justify-content: space-between;
   gap: 50px;
+
 }
 
 .group:nth-child(odd) {
@@ -139,12 +153,13 @@ p {
 }
 
 .group2 {
-  padding: 40px;
+  padding: 40px 10px;
   display: flex;
   flex-direction: row-reverse;
   /* flex row=kuva vasen row-reverse kuva oikea*/
   border: 2px solid #000000bb;
-  border-radius: 40px;
+  border-radius: 50px;
+
 }
 
 figure {
@@ -170,6 +185,7 @@ figure {
 .group2 {
   display: flex;
   flex-direction: column-reverse;
+  background-color: #0000001f;
   /* Change the flex direction */
 }
 
@@ -181,7 +197,7 @@ figure {
 .group2 p {
   order: 2;
   /* Set the order of the paragraph containing HINNASTO */
-  font-weight: bold;
+
 }
 
 
