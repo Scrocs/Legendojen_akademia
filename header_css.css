@@ -134,7 +134,7 @@ p {
   display: flex;
   flex-direction: row-reverse;
   /* flex row=kuva vasen row-reverse kuva oikea*/
-  border: 1px solid rgba(0, 0, 0, 0.733);
+  border: 2px solid rgba(0, 0, 0, 0.733);
   border-radius: 50px;
 }
 
