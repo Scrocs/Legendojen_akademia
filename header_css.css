@@ -6,7 +6,9 @@ body {
   color: #fff;
 
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /*.kuka_olen_page {
   background: linear-gradient(to right, #690c69, #0099ffb2);
 } JOS HALUAA ERI TAUSTAKUVAN KUKA_OLEN SIVULLE*/
@@ -224,7 +226,7 @@ figure {
 
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1118px) {
   p {
     font-size: 18px;
     /* Further adjust font size for mobile screens */
