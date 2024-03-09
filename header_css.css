@@ -20,6 +20,7 @@ nav {
 }
 
 nav a {
+  border: 1px solid rgb(0, 0, 0);
   color: #eeeded;
   text-shadow: 2px 2px #00000079;
   text-decoration: none;
@@ -30,7 +31,23 @@ nav a {
   margin-right: 10px;
   margin-bottom: 50px;
 }
+#toimintakehote {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  background-color: #f1f1f14b;
+  padding: 30px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 20px 30px;
+  color: #eeeded;
+  text-shadow: 2px 2px #00000079;
+  font-size: 30px;
+  width: 300px;
+  overflow: hidden;
 
+}
 nav a.active-page {
   background-color: #0000004b;
 }
@@ -83,11 +100,11 @@ footer {
   bottom: 0;
   width: 99%;
   text-align: center;
-  color: #ffffff;
   clear: both;
   position: relative;
-  height: 100px;
-  margin-top: 150px;
+  font-size: 30px;
+  color: #eeeded;
+  padding-top: 30px;
 }
 
 figcaption {
@@ -101,6 +118,11 @@ p {
   padding: 20px;
   font-weight: 300;
 }
+.footer {
+  font-size: 20px;
+  text-align: center;
+}
+
 .hinnasto-otsikko {
   font-size: 40px;
   font-weight: bold; /* Make the HINNASTO text bold */
@@ -153,7 +175,7 @@ p {
 }
 
 .group2 {
-  padding: 40px 10px;
+  padding: 30px 10px;
   display: flex;
   flex-direction: row-reverse;
   /* flex row=kuva vasen row-reverse kuva oikea*/
@@ -202,7 +224,7 @@ figure {
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   p {
     font-size: 18px;
     /* Further adjust font size for mobile screens */
@@ -242,5 +264,8 @@ figure {
     padding: 10px 20px;
     /* Laittaa tilaa lisää nappien väliin */
   }
-
+  #toimintakehote {
+    font-size: 20px;
+    width: auto;
+  }
 }
