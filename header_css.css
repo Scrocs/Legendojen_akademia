@@ -290,8 +290,9 @@ figure {
     /* Laittaa tilaa lisää nappien väliin */
   }
   #toimintakehote {
+    margin: 5px 20px;
     font-size: 20px;
-    width: auto;
+    padding: 20px;
   }
   #linkit {
     margin: 5px 20px;
