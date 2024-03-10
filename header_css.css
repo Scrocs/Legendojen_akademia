@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  box-shadow: inset 0 0 5px #ffffff; /*Boksin reunojen varjo*/
   border-radius: 10px;
 }
 
@@ -133,9 +133,21 @@ footer {
   padding-top: 30px;
 }
 
+ul {
+  font-size: 20px;
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 0; 
+}
+
+li {
+  display: inline;
+  margin: 0 10px; 
+}
 
 figcaption {
-  color: #ffffff7c;
+  color: #fafafa7c;
+  font-size: 20px;
 }
 
 p {
@@ -154,7 +166,6 @@ p {
 .hinnasto-otsikko {
   font-size: 40px;
   font-weight: bold;
-  /* Make the HINNASTO text bold */
   text-align: center;
   text-shadow: 2px 2px #000000;
 }
@@ -168,17 +179,14 @@ p {
 
 .grid-container {
   display: flex;
-  flex-direction: column;
-  /* Stack items vertically */
-  gap: 40px;
-  /* Add space between groups */
+  flex-direction: column; /* Boksit toistensa päällä*/
+  gap: 40px; /*Kuinka iso väli boksien välillä*/
   padding: 50px;
 }
 
 .grid-container2 {
   display: flex;
-  flex-direction: row;
-  /* Stack items vertically */
+  flex-direction: row;  /* laittaa Boksit vierekkäin */
   justify-content: space-between;
   gap: 50px;
 
