@@ -1,14 +1,18 @@
 body {
   background: linear-gradient(to right, #690c69, #0099ffb2);
-  margin: 0;
-  padding: 0px 50px;
+  margin: 0px;
+  padding: 10px 50px;
+  /*Kuinka paljon reunoista otetaan pois Y-X */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #fff;
 
 }
-html{
+
+html {
   scroll-behavior: smooth;
+  /*Smoothimpi scrollaus*/
 }
+
 /*.kuka_olen_page {
   background: linear-gradient(to right, #690c69, #0099ffb2);
 } JOS HALUAA ERI TAUSTAKUVAN KUKA_OLEN SIVULLE*/
@@ -28,13 +32,24 @@ nav a {
   text-decoration: none;
   padding: 10px 30px;
   transition: background-color 0.3s;
+  /*Kuinka nopeasti nav a hover tulee näkyviin*/
   background-color: #f1f1f14b;
   border-radius: 40px;
+  /* Boksin pyöreys*/
   margin-right: 10px;
-  margin-bottom: 50px;
+  /* Kuinka erillään boksit ovat toisistaan*/
 }
+
+nav a.active-page {
+  background-color: #0000004b;
+}
+
+nav a:hover {
+  background-color: #ffffffa4;
+}
+
 #toimintakehote {
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid #000000;
   border-radius: 40px;
   background-color: #f1f1f14b;
   padding: 30px 50px;
@@ -46,12 +61,13 @@ nav a {
   color: #eeeded;
   text-shadow: 2px 2px #00000079;
   font-size: 30px;
-  width: 300px;
   overflow: hidden;
 }
+
 .button-container {
   text-align: center;
 }
+
 #linkit {
   border: 1px solid rgb(0, 0, 0);
   border-radius: 40px;
@@ -68,31 +84,21 @@ nav a {
   width: 300px;
   overflow: hidden;
 }
-nav a.active-page {
-  background-color: #0000004b;
-}
-
-nav a:hover {
-  background-color: #ffffffa4;
-}
 
 ::-webkit-scrollbar {
   width: 30px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(255, 255, 255);
   border-radius: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #690c69, #0099ffb2);
   border-radius: 10px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to top, #690c69, #0099ffb2);
 }
@@ -113,7 +119,7 @@ h1 {
   font-weight: 600;
   color: #f7f7f7;
   text-align: center;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 1px 1px #000000;
 }
 
 footer {
@@ -139,6 +145,7 @@ p {
   padding: 20px;
   font-weight: 300;
 }
+
 .footer {
   font-size: 20px;
   text-align: center;
@@ -146,15 +153,16 @@ p {
 
 .hinnasto-otsikko {
   font-size: 40px;
-  font-weight: bold; /* Make the HINNASTO text bold */
+  font-weight: bold;
+  /* Make the HINNASTO text bold */
   text-align: center;
-  text-shadow:2px 2px #000000;
+  text-shadow: 2px 2px #000000;
 }
 
 .hinnasto-teksti {
   font-size: 30px;
   font-weight: 200px;
-  text-shadow:1px 1px #000000;
+  text-shadow: 1px 1px #000000;
 
 }
 
@@ -218,37 +226,37 @@ figure {
 
 }
 
-/* Tekstin tyyli */
+
 .group p.kuka_olen {
   margin: 0;
   flex: 1;
-  /* Expand to fill remaining space */
+
 }
 
 .group2 {
   display: flex;
   flex-direction: column-reverse;
   background-color: #0000001f;
-  /* Change the flex direction */
 }
 
 .group2 div {
   order: 1;
-  /* Set the order of the div containing main text */
+
 }
 
 .group2 p {
   order: 2;
-  /* Set the order of the paragraph containing HINNASTO */
+
 
 }
 
 
 
-@media screen and (max-width: 1118px) {
-  body{
-    padding: 5px;
+@media screen and (max-width: 1118px) { /* Jotta sivu näyttää hyvältä niin tabletilla vaaka- sekä pystymuodossa ja puhelimella*/
+  body {
+    padding: 5px 5px;
   }
+
   p {
     font-size: 17px;
     padding: 0px;
@@ -263,15 +271,15 @@ figure {
   }
 
   .group {
-    flex-direction: column;
+    flex-direction: column; /* Laittaa pystyriviin*/
     padding: 20px;
   }
 
   .grid-container2 {
-    flex-direction: column;
+    flex-direction: column; /*Laittaa ne pystyriviin*/
   }
 
-  .group img {
+  .group img { /* Muokkaa kuvan kokoa*/
     max-width: 60%;
     max-height: 70%;
   }
@@ -289,13 +297,15 @@ figure {
     padding: 10px 20px;
     /* Laittaa tilaa lisää nappien väliin */
   }
+
   #toimintakehote {
     margin: 5px 20px;
     font-size: 20px;
     padding: 20px;
   }
+
   #linkit {
     margin: 5px 20px;
-    padding:0px
+    padding: 0px
   }
 }
