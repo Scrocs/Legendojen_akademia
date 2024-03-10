@@ -48,7 +48,25 @@ nav a {
   font-size: 30px;
   width: 300px;
   overflow: hidden;
-
+}
+.button-container {
+  text-align: center;
+}
+#linkit {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  background-color: #f1f1f14b;
+  padding: 30px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 20px 30px;
+  color: #eeeded;
+  text-shadow: 2px 2px #00000079;
+  font-size: 30px;
+  width: 300px;
+  overflow: hidden;
 }
 nav a.active-page {
   background-color: #0000004b;
@@ -108,6 +126,7 @@ footer {
   color: #eeeded;
   padding-top: 30px;
 }
+
 
 figcaption {
   color: #ffffff7c;
@@ -227,13 +246,16 @@ figure {
 
 
 @media screen and (max-width: 1118px) {
+  body{
+    padding: 5px;
+  }
   p {
     font-size: 17px;
     padding: 0px;
   }
 
   .etusivu {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   h1 {
@@ -270,5 +292,9 @@ figure {
   #toimintakehote {
     font-size: 20px;
     width: auto;
+  }
+  #linkit {
+    margin: 5px 20px;
+    padding:0px
   }
 }
