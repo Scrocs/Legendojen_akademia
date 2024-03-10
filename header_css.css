@@ -242,6 +242,7 @@ figure {
 
   .group {
     flex-direction: column;
+    padding: 20px;
   }
 
   .grid-container2 {
