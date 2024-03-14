@@ -85,23 +85,6 @@ nav a:hover {
   overflow: hidden;
 }
 
-::-webkit-scrollbar {
-  width: 30px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #ffffff; /*Boksin reunojen varjo*/
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #690c69, #0099ffb2);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to top, #690c69, #0099ffb2);
-}
 
 h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -175,7 +158,7 @@ p {
 
 .hinnasto-teksti {
   font-size: 30px;
-  font-weight: 200px;
+  font-weight: 200;
   text-shadow: 1px 1px #000000;
 
 }
