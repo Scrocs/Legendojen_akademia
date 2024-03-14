@@ -48,7 +48,7 @@ nav a:hover {
   background-color: #ffffffa4;
 }
 
-#toimintakehote {
+.toimintakehote {
   border: 1px solid #000000;
   border-radius: 40px;
   background-color: #f1f1f14b;
